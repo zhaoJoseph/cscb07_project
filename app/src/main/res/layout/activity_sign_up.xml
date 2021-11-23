@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signUpConfirmPassword"
+        app:layout_constraintTop_toBottomOf="@+id/accountTypeMenu"
         android:text="sign up" />
 
     <EditText
@@ -62,5 +62,15 @@
         app:layout_constraintTop_toBottomOf="@+id/SignUpUserPassword"
         />
 
+    <Spinner
+        android:id="@+id/accountTypeMenu"
+        android:layout_width="310dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUpConfirmPassword"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
